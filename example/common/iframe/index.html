@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+        <title>iFrame Page</title>
+
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            html, body {
+                height: 100%;
+                position: relative;
+            }
+
+            .b-viewport {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 18pt;
+                font-family: Helvetica, sans-serif;
+                width: 100%;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="b-viewport">
+            Hello from iFrame!
+            <p id="text"></p>
+        </div>
+
+        <script src="../../../src/iframeAPI.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

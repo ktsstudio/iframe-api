@@ -1,0 +1,27 @@
+{
+  "name": "iframe-api",
+  "version": "1.0.0",
+  "description": "Lib for manipulate page from iFrame",
+  "main": "src/iframeAPI.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ktsstudio/iframe-api.git"
+  },
+  "keywords": [
+    "iframe",
+    "ipc",
+    "url"
+  ],
+  "author": "George Biryukov <gosha@ktsstudio.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ktsstudio/iframe-api/issues"
+  },
+  "homepage": "https://github.com/ktsstudio/iframe-api#readme"
+}
