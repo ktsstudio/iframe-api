@@ -1,0 +1,22 @@
+{
+  "name": "iFrameAPI",
+  "description": "Lib for manipulate page from iFrame",
+  "main": "src/iframeAPI.js",
+  "authors": [
+    "George Biryukov <gosha@ktsstudio.ru>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "iframe",
+    "ipc",
+    "url"
+  ],
+  "homepage": "https://github.com/ktsstudio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
