@@ -1,5 +1,5 @@
 {
-  "name": "iframe-api",
+  "name": "iFrameAPI",
   "version": "1.0.0",
   "description": "Lib for manipulate page from iFrame",
   "main": "src/iframeAPI.js",
